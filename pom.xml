@@ -6,6 +6,20 @@
 	<groupId>org.springframework.samples</groupId>
 	<artifactId>petclinic</artifactId>
 	<version>1.0</version>
+	<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->
+<dependency>
+    <groupId>org.apache.tomcat.embed</groupId>
+    <artifactId>tomcat-embed-core</artifactId>
+    <version>10.1.0-M8</version>
+</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-websocket -->
+<dependency>
+    <groupId>org.apache.tomcat.embed</groupId>
+    <artifactId>tomcat-embed-websocket</artifactId>
+    <version>10.1.0-M8</version>
+</dependency>
+
+
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
